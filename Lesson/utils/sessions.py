@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 
 def reqres() -> BaseSession:
-    reqres_url = "https://reqres.in/api"  # os.getenv('cats_api')
+    reqres_url = os.getenv('api_url_reqres')
     return BaseSession(base_url=reqres_url)
 
 
