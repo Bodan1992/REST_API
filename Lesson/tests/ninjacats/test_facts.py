@@ -1,8 +1,8 @@
 import requests
 from pytest_voluptuous import S
 
-from schemas.facts import facts
-from utils.sessions import cats
+from Lesson.schemas.facts import facts
+from Lesson.utils.sessions import cats
 
 
 def test_facts_count():
